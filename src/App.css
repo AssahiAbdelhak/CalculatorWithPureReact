@@ -1,0 +1,50 @@
+.container {
+    border: 1px solid black;
+}
+
+.buttons {
+    background-color: rgb(88, 143, 245);
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(5, 60px);
+    text-align: center;
+    line-height: 60px;
+    font-size: large;
+}
+
+.dessus {
+    text-align: end;
+    font-size: small;
+    min-height: 10px;
+}
+
+.dessous {
+    text-align: end;
+    font-size: 30px;
+    min-height: 30px;
+}
+
+.ecran {
+    background-color: black;
+    color: white;
+}
+
+.number,
+.clear,
+.delete,
+.equal,
+.point,
+.operator {
+    background-color: rgb(228, 222, 222);
+    cursor: pointer;
+    user-select: none;
+}
+
+.clear {
+    grid-column: span 2;
+}
+
+.equal {
+    grid-column: span 2;
+}
